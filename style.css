@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and Container Styling */
+body {
+    background-color: #e0f7fa; /* Light Cyan */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2em;
+    color: #006064; /* Dark Cyan */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+input, textarea, button {
+    padding: 12px;
+    border: 2px solid #00acc1; /* Bright Cyan */
+    border-radius: 8px;
+    font-size: 1em;
+    width: 100%;
+}
+
+button {
+    background-color: #00838f; /* Deep Cyan */
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #006064;
+}
+
+/* Resume Display Section */
+.resume {
+    background-color: #e0f7fa; /* Light Cyan */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.resume header h1 {
+    font-size: 1.8em;
+    color: #006064; /* Dark Cyan */
+}
+
+.resume p {
+    font-size: 1em;
+    color: #4a4a4a;
+}
+
+.resume section h2 {
+    color: #00acc1; /* Bright Cyan */
+    font-size: 1.2em;
+    border-bottom: 2px solid #00acc1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.resume section p {
+    font-size: 1em;
+    color: #4a4a4a;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    header h1 {
+        font-size: 1.6em;
+    }
+
+    section h2 {
+        font-size: 1.1em;
+    }
+
+    section p {
+        font-size: 0.95em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    header h1 {
+        font-size: 1.3em;
+    }
+
+    section h2 {
+        font-size: 1em;
+    }
+
+    section p {
+        font-size: 0.85em;
+    }
+}
